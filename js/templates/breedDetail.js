@@ -4,5 +4,5 @@ export const breedDetail =
     <div id='detailImageContainer'>
         -images-
     </div>
-    <a href="#">Back</a>
+    <a href="./#">Back</a>
 </section>`
