@@ -1,0 +1,27 @@
+{
+  "name": "test-environment",
+  "version": "1.0.0",
+  "description": "For testing",
+  "main": "test.js",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "start": "sirv public"
+  },
+  "author": "Robin Frugte",
+  "license": "ISC",
+  "devDependencies": {
+    "connect": "^3.7.0",
+    "livereload": "^0.9.1",
+    "nodemon": "^2.0.7",
+    "rollup": "^2.38.3",
+    "serve-static": "^1.14.1",
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "rollup-plugin-css-only": "^3.0.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.0"
+  },
+  "dependencies": {
+    "sirv-cli": "^1.0.11"
+  }
+}

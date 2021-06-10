@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>TheCatApi</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        </link>
+        <!--https://www.websiteplanet.com/nl/webtools/favicon-generator/#-->
+        <link rel="icon" type="image/png" sizes="16x16" href="./src/favicon.png">
+    </head>
+    <body>
+        <section id="container" aria-hidden="true">
+            <div id="animate">
+            </div>
+        </section>
+        <header>
+            <a href="#"><h1>Kitty breeds from TheCatApi</h1></a>
+            <div>
+                <label for="searchBar">Search breed: </label>
+                <input type="input" id="searchBar" aria-label="Search Input"/>
+            </div>
+        </header>
+        <ul id="kittyBreeds"></ul>
+        <div id="kittyDetail"></div>
+        <span id="loader">
+            <span >😼</span>
+            <p>Fetching kitties</p>
+        </span>
+        
+    </body>
+    <script defer src="/build/bundle.js"></script>
+</html>
