@@ -25,12 +25,12 @@ function serve() {
 }
 
 export default {
-	input: 'public/js/main.js',
+	input: 'js/main.js',
 	output: {
 		sourcemap: true,
 		format: 'iife',
 		name: 'app',
-		file: 'public/build/bundle.js'
+		file: 'build/bundle.js'
 	},
 	plugins: [
 

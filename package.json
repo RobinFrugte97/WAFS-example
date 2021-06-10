@@ -5,7 +5,7 @@
   "main": "test.js",
   "scripts": {
     "dev": "rollup -c -w",
-    "start": "sirv public"
+    "start": "sirv"
   },
   "author": "Robin Frugte",
   "license": "ISC",
